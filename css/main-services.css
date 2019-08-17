@@ -1,0 +1,165 @@
+body{
+    font-family: Font;
+    
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+* {
+  margin: 0px; 
+  padding: 0px; 
+    box-sizing: border-box;
+}
+
+@font-face{
+  font-family: Font;
+  src:url(../fonts/NewsCycle-Regular.ttf);}
+  /* Header of the Nav*/
+.Container{
+   width: 1353px;
+    margin: auto 0;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+  
+  }
+  .look{
+    grid-column: 1/5;
+    grid-row: 1;
+  
+  }
+  .Header{
+    text-align: center;
+}
+.Header nav{
+      background-color: black;
+    width: 100%;
+    height: 60px;
+  
+  }
+
+.Header a{
+  color:#fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  padding-right: 100px;
+
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#808080;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*body services*/
+.sec-2{
+  grid-column: 1/5;
+  grid-row: 2;
+      padding-top: 45px;  
+
+}
+
+.con{
+    padding-left: 100px;
+}
+
+ .h1{
+ text-align: center;
+  text-shadow: 15px 15px 10px black;
+}
+.con h3{
+  text-align: center;
+}
+p{
+      text-align: justify;
+    font-size: 15px;
+    padding: 20px;
+}
+.License1{
+      text-align: center;
+    margin-top: 50px;
+   
+}
+.Guarantee{
+    text-align: center;
+        margin-top: 28px;
+}
+.Safety{
+  text-align: center;
+        margin-top: 28px;
+}
+.Long-term{
+  text-align: center;
+        margin-top: 28px;
+}
+.License{
+  float: left;
+  width: 25%;
+  border: 1px solid #808080;
+  padding:10px;
+  margin: 20px;
+  text-align: center;
+  background-color: #ccc;
+}
+.License2{
+  float: left;
+  width: 25%;
+  border: 1px solid #808080;
+  padding:10px;
+  margin: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+/*Footer section*/
+#Footer{
+  
+  clear: both;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+
+}
+.push{
+  grid-column:1/5;
+  grid-row:5;
+      
+    }
+.st h1 {
+        padding-left: 10px;
+    font-size: 18px;
+
+}
+.st h4{
+        display: block;
+    padding-left: 15px;
+  }
+  .copy{
+       /* clear: both; */
+    text-align: center;
+    /* margin-top: 40px; */
+    font-size: 12px;
+    letter-spacing: initial;
+    }
